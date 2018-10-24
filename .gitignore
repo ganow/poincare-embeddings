@@ -1,3 +1,11 @@
+### my code
+
+wordnet/mammal_closure.tsv
+wordnet/noun_closure.tsv
+wordnet/mammals.txt
+mammals.pth
+
+
 ### https://raw.github.com/github/gitignore/967cd6479319efde70a6fa44fa1bfa02020f2357/Python.gitignore
 
 # Byte-compiled / optimized / DLL files
