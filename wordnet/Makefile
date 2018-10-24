@@ -5,6 +5,7 @@ mammal_closure.tsv: noun_closure.tsv
 	cat noun_closure.tsv | grep -f "mammals.txt" | grep -v -f mammals_filter.txt > mammal_closure.tsv
 
 noun_closure.tsv:
+	$(PYTHON) -c "import nltk; nltk.download('wordnet')"
 	$(PYTHON) transitive_closure.py
 
 clean:
